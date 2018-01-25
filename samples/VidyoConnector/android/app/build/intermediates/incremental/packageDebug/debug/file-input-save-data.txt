@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jan 18 15:36:47 CET 2018
+#Wed Jan 24 15:34:20 CET 2018
 4.path=classes.dex
 8.set=DEX
 6.path=lib/arm64-v8a/libVidyoClient.so

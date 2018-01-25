@@ -1,33 +1,47 @@
 -- Merging decision tree log ---
+provider#it.unige.dibris.utils.GenericFileProvider
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:30:9-38:20
+	android:grantUriPermissions
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:34:13-47
+	android:authorities
+		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:32:13-76
+	android:exported
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:31:13-69
 manifest
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:17:1-31:12
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
+MERGED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/543f221716d74fc39d350300b4532b7f/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
 	package
 		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-53:12
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:1-69:12
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:2:11-69
@@ -36,155 +50,181 @@ ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/sampl
 	android:name
 		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:5:22-76
 uses-feature#android.hardware.location.gps
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:6:19-63
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:7:19-63
 uses-permission#android.permission.INTERNET
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:9:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.CAMERA
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:9:5-65
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:9:22-62
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:11:22-62
 uses-permission#android.permission.CAPTURE_AUDIO_OUTPUT
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:10:5-79
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:10:22-76
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:11:5-71
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:11:22-68
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:13:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:12:5-80
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:12:22-77
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:14:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:13:5-79
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:15:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:14:5-76
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:14:22-73
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:16:22-73
 uses-feature#android.hardware.camera
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:16:5-18:36
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:18:5-20:36
 	android:required
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:18:9-33
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:20:9-33
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:17:9-47
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:19:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:19:5-21:36
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:21:9-33
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:23:9-33
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:20:9-57
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:22:9-57
 application
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:23:5-51:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:29:5-20
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:25:5-67:19
+MERGED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/543f221716d74fc39d350300b4532b7f/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/543f221716d74fc39d350300b4532b7f/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:25:5-29:19
 	android:label
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:28:9-41
 	android:icon
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:25:9-47
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:27:9-47
 	android:allowBackup
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:26:9-35
 	android:theme
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:27:9-40
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:29:9-40
 activity#com.vidyo.vidyoconnector.MainActivity
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:29:9-47:20
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:40:9-58:20
 	android:label
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:32:13-45
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:43:13-45
 	android:launchMode
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:33:13-43
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:44:13-43
 	android:configChanges
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:31:13-59
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:42:13-59
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:30:13-41
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:41:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:34:13-38:29
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:35:17-69
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:37:17-77
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:37:27-74
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:48:27-74
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:39:13-46:29
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:50:13-57:29
 action#android.intent.action.VIEW
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:40:17-69
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:40:25-66
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:51:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:42:17-76
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:53:17-76
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:42:27-73
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:53:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:43:17-78
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:54:17-78
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:43:27-75
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:54:27-75
 data
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:45:17-57
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:56:17-57
 	android:scheme
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:45:23-54
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:56:23-54
 activity#com.vidyo.vidyoconnector.MakePhotoActivity
-ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:48:9-50:56
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:59:9-61:56
 	android:theme
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:50:13-53
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:61:13-53
 	android:name
-		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:49:13-46
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:60:13-46
+activity#it.unige.dibris.utils.CameraActivity
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:62:9-64:62
+	android:configChanges
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:64:13-59
+	android:name
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:63:13-64
+activity#it.unige.dibris.utils.Custom_CameraActivity
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:65:9-80
+	android:name
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:65:19-77
+activity#com.vidyo.vidyoconnector.LoginActivity
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:66:9-60
+	android:name
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:66:19-48
 uses-sdk
 INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/543f221716d74fc39d350300b4532b7f/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/543f221716d74fc39d350300b4532b7f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:21:5-23:58
 INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
@@ -193,25 +233,37 @@ INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/sa
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c387dfe464a15fe48d05cdc2e0acc32d/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/95efa1caae45cff30c7bf866db876a97/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/f884e457b1c4c27fc6c938bb0b244e59/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/b41c7b886fb81454c370256fc43d8218/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/f0f37d4ca24d42293eecb42536c425c2/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/a24411ba5845141dc7dfbe2a8254e891/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/a4c4894afd40ab1381793c58562e6f5b/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/dbf84f778f4f85b61aab217e5e36b740/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:27:9-31
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:35:13-37:58
+	android:resource
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:37:17-55
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/AndroidManifest.xml:26:9-47
+		ADDED from /Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/src/main/AndroidManifest.xml:36:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/a4eb82ad21dfba7f1ba1b3a217cc95b1/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/b6231e03d0e95d1278b1123a107c40e7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/c1bd02f62f84b441eb4b3a3dc1af0a30/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/0e2768c973046bb54c90102bee9a1d7a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/6cb396a8e86c90a22cbcbc8ac7f043a2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/c98770e9eddd3ff43447465d7c607895/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/c3fed72cb56df84ea7cd8e9f44e2495f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/3d58bf4b285e141b035557fc46164bf2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/1e3fd0adf46aed64c4bac27e89f6f5d6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/45a9947ec8657a0bae649e1a33185151/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.2] /Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/8ee9d4729979be1c58f636bf75cd89c9/AndroidManifest.xml:27:13-51

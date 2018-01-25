@@ -101,7 +101,7 @@
                             android:enabled="true"
                             android:focusable="true"
                             android:focusableInTouchMode="true"
-                            android:hint="example.vidyo.io"
+                            android:hint="prod.vidyo.io"
                             android:inputType="text"
                             android:paddingEnd="5dp"
                             android:paddingStart="5dp"

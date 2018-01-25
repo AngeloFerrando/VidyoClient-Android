@@ -4,7 +4,7 @@
             "outputFile": "/Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/76694a4fcd6317030fb11b489fb036ba/res/values-port/values-port.xml",
+                    "source": "/Users/angeloferrando/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/f670e55d54c058bf60ade0ba501f6d64/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -8,21 +8,16 @@ import android.content.res.Configuration;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.media.projection.MediaProjection;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
-import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewTreeObserver;
@@ -33,24 +28,24 @@ import android.widget.TextView;
 import android.app.Activity;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.vidyo.VidyoClient.Connector.ConnectorPkg;
 import com.vidyo.VidyoClient.Connector.Connector;
 import com.vidyo.VidyoClient.Device.Device;
 import com.vidyo.VidyoClient.Device.LocalCamera;
-import com.vidyo.VidyoClient.Device.LocalRenderer;
 import com.vidyo.VidyoClient.Endpoint.LogRecord;
 import com.vidyo.VidyoClient.NetworkInterface;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+
+import it.unige.dibris.utils.CameraActivity;
+import it.unige.dibris.utils.Custom_CameraActivity;
 
 public class MainActivity extends Activity implements
         Connector.IRegisterLocalCameraEventListener,
@@ -707,6 +702,11 @@ public class MainActivity extends Activity implements
     // Toggle the camera privacy
     public void cameraPrivacyButtonPressed(View v) {
         mVidyoConnector.setCameraPrivacy(((ToggleButton) v).isChecked());
+
+        mVidyoConnector.selectLocalMicrophone(null);
+        mVidyoConnector.selectLocalCamera(null);
+        startActivity(new Intent(this, CameraActivity.class));
+        //startActivity(new Intent(this, Custom_CameraActivity.class));
 
         //to register audio
         /*mVidyoConnector.selectLocalMicrophone(null);

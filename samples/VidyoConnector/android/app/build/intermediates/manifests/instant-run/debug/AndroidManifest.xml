@@ -28,10 +28,6 @@
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" />
-
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -39,6 +35,16 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <provider
+            android:name="it.unige.dibris.utils.GenericFileProvider"
+            android:authorities="com.vidyo.vidyoconnector.my.package.name.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
         <activity
             android:name="com.vidyo.vidyoconnector.MainActivity"
             android:configChanges="orientation|screenSize"
@@ -61,6 +67,14 @@
         <activity
             android:name="com.vidyo.vidyoconnector.MakePhotoActivity"
             android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="it.unige.dibris.utils.CameraActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="it.unige.dibris.utils.Custom_CameraActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

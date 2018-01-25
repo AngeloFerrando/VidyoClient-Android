@@ -3,7 +3,9 @@
     package="com.vidyo.vidyoconnector">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <uses-feature android:name="android.hardware.location.gps" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -25,6 +27,15 @@
         android:icon="@drawable/vidyo_io_icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+        <provider
+            android:name="it.unige.dibris.utils.GenericFileProvider"
+            android:authorities="${applicationId}.my.package.name.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
 
         <activity
             android:name=".MainActivity"
@@ -48,6 +59,11 @@
         <activity
             android:name=".MakePhotoActivity"
             android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="it.unige.dibris.utils.CameraActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="it.unige.dibris.utils.Custom_CameraActivity" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>

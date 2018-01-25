@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vidyo.vidyoconnector.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/controlsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.9"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingBottom="0dp"
+                android:src="@drawable/liquidaonlinelogo" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/button_material_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:width="110dp"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:paddingEnd="5dp"
+                    android:text="Host"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/hostTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:elegantTextHeight="true"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="example.vidyo.io"
+                    android:inputType="text"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/button_material_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:width="110dp"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:paddingEnd="5dp"
+                    android:text="Token"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/tokenTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:elegantTextHeight="true"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="required"
+                    android:inputType="text"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/button_material_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:width="110dp"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:paddingEnd="5dp"
+                    android:text="Display Name"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/displayNameTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:elegantTextHeight="true"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="your name"
+                    android:inputType="text"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/button_material_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:width="110dp"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:paddingEnd="5dp"
+                    android:text="Resource ID"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/resourceIdTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:elegantTextHeight="true"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:hint="required"
+                    android:inputType="text"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingTop="0dp"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/button_material_light" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@+id/connectionSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/clientVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:text="VidyoClient-AndroidSDK 0.0.0.0"
+                    android:textColor="#ff0000"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

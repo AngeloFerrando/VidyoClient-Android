@@ -1,4 +1,4 @@
-#Thu Jan 18 15:36:43 CET 2018
+#Wed Jan 24 15:34:15 CET 2018
 base.0=/Users/angeloferrando/AndroidStudioProjects/VidyoClient-Android/samples/VidyoConnector/android/app/build/intermediates/transforms/dexMerger/debug/11
 path.0=classes.dex
 renamed.0=classes.dex
